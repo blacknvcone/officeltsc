@@ -1,0 +1,30 @@
+<!-- Office LTSC Standard 2024 configuration file
+     Volume License (KMS activation) - 64-bit
+     Channel: PerpetualVL2024
+     KMS Server: 192.168.172.21:1688
+
+     For detailed information: https://aka.ms/ODT -->
+
+<Configuration ID="OfficeLTSC2024-Standard">
+
+  <Add OfficeClientEdition="64" Channel="PerpetualVL2024">
+    <Product ID="Standard2024Volume">
+      <Language ID="en-us" />
+      <ExcludeApp ID="Teams" />
+      <ExcludeApp ID="OneDrive" />
+      <ExcludeApp ID="Groove" />
+      <ExcludeApp ID="Lync" />
+    </Product>
+  </Add>
+
+  <Updates Enabled="TRUE" />
+
+  <RemoveMSI />
+
+  <Property Name="SharedComputerLicensing" Value="0" />
+  <Property Name="FORCEAPPSHUTDOWN" Value="TRUE" />
+  <Property Name="DeviceBasedLicensing" Value="0" />
+
+  <Display Level="Full" AcceptEULA="TRUE" />
+
+</Configuration>

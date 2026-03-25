@@ -1,0 +1,6 @@
+# Office installation binaries (large, not for version control)
+ODT/Office/
+ODT/setup.exe
+
+# Installers
+*.exe
